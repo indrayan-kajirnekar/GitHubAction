@@ -47,4 +47,4 @@ jobs:
           echo Triggered by ${{ github.actor }}.
       - name: Checking repository secret
         run: |
-          echo The repository secret is ${{ secret.my_key }}
+          echo The repository secret is ${{ secrets.my_key }}
